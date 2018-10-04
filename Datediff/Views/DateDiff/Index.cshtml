@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Date Difference Calculator</h1>
+    
+</div>
+
+
+@model Datediff.Models.DateModel
+
+@{
+    using (Html.BeginForm("OnSubmit", "DateDiff", FormMethod.Post))
+    {
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        From Date:
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        @Html.TextBoxFor(m => m.FromDate)<br />
+                        @Html.Raw(HttpUtility.HtmlDecode(Html.ValidationMessageFor(m => m.FromDate).ToHtmlString()))
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-12">
+                        To Date:
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        @Html.TextBoxFor(m => m.ToDate)<br/>
+                        @Html.Raw(HttpUtility.HtmlDecode(Html.ValidationMessageFor(m => m.ToDate).ToHtmlString()))
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row margin-top-10">
+            <div class="col-md-4">
+                <input type="submit" value="Submit" />
+            </div>
+        </div>
+        <div class="row margin-top-10">
+            <div class="col-md-12">
+                <label>Number of Days between dates is : </label>
+                @Html.LabelFor(m=>m.TotalDays)
+            </div>
+        </div>
+
+
+       
+    }
+}
+
