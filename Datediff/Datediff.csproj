@@ -152,7 +152,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\DateModel.cs" />
+    <Compile Include="Models\DateViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -192,8 +192,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\DateDiff\About.cshtml" />
-    <Content Include="Views\DateDiff\Contact.cshtml" />
     <Content Include="Views\DateDiff\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -206,6 +204,12 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DateComparer\DateComparer.csproj">
+      <Project>{adafd8b3-d334-41a6-b9f4-0c3240caa3dd}</Project>
+      <Name>DateComparer</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

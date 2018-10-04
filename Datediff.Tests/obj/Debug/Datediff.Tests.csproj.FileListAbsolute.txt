@@ -37,3 +37,5 @@ c:\users\u496285\Documents\Visual Studio 2015\Projects\Datediff\Datediff.Tests\b
 c:\users\u496285\Documents\Visual Studio 2015\Projects\Datediff\Datediff.Tests\obj\Debug\Datediff.Tests.csprojResolveAssemblyReference.cache
 c:\users\u496285\Documents\Visual Studio 2015\Projects\Datediff\Datediff.Tests\obj\Debug\Datediff.Tests.dll
 c:\users\u496285\Documents\Visual Studio 2015\Projects\Datediff\Datediff.Tests\obj\Debug\Datediff.Tests.pdb
+C:\Users\U496285\Documents\Visual Studio 2015\Projects\Datediff\Datediff.Tests\bin\Debug\DateComparer.dll
+C:\Users\U496285\Documents\Visual Studio 2015\Projects\Datediff\Datediff.Tests\bin\Debug\DateComparer.pdb
