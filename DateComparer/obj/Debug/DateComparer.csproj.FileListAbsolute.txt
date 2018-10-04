@@ -1,5 +1,0 @@
-C:\Users\U496285\Documents\Visual Studio 2015\Projects\Datediff\DateComparer\bin\Debug\DateComparer.dll
-C:\Users\U496285\Documents\Visual Studio 2015\Projects\Datediff\DateComparer\bin\Debug\DateComparer.pdb
-C:\Users\U496285\Documents\Visual Studio 2015\Projects\Datediff\DateComparer\obj\Debug\DateComparer.csprojResolveAssemblyReference.cache
-C:\Users\U496285\Documents\Visual Studio 2015\Projects\Datediff\DateComparer\obj\Debug\DateComparer.dll
-C:\Users\U496285\Documents\Visual Studio 2015\Projects\Datediff\DateComparer\obj\Debug\DateComparer.pdb
